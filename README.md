@@ -1,316 +1,238 @@
-# portfolio
- webdeveloper
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kishore - Home</title>
+    <!-- library CSS -->
+    <link rel="stylesheet" href="./styles/library.css" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Starts -->
+    <nav class="nav container-fluid">
+      <div class="container">
+        <div class="brand">Kishore</div>
+        <ul>
+          <li>
+            <a href="/" class="active">Home</a>
+          </li>
+          <li>
+            <a href="/">Projects</a>
+            <a href="./projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="/">Blogs</a>
+            <a href="./blogs.html">Blogs</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+    <!-- Header Starts -->
+    <header class="container hero">
+      <img
+        src="./assests/images/hero.jpg"
+        alt="hero-image"
+        class="img-circle"
+      />
+      <h1>Kishore - A Front End Developer</h1>
+    </header>
+    <!-- Header Ends -->
+    <main>
+      <!-- About -->
+      <section class="section dark">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+          similique reiciendis accusantium error unde voluptate quo earum iusto
+          ab. Magni.
+        </p>
+        <br />
+        <a href="#" class="btn btn-primary-outline"
+          >Download Resume&nbsp; <i class="fas fa-download"></i
+        ></a>
+      </section>
+      <!-- project Section -->
+      <section class="section">
+        <h2 class="section-title">My Projects</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+          similique reiciendis accusantium error unde voluptate quo earum iusto
+          ab. Magni.
+        </p>
+        <br />
+        <a href="#" class="btn btn-primary"
+          >Projects &nbsp; <i class="fas fa-arrow-alt-circle-right"></i
+        ></a>
+      </section>
+      <!-- Blogs Section -->
+      <section class="section dark">
+        <h2 class="section-title">My Blogs</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+          similique reiciendis accusantium error unde voluptate quo earum iusto
+          ab. Magni.
+        </p>
+        <br />
+        <a href="#" class="btn btn-primary-outline"
+          >Blogs&nbsp; <i class="fas fa-arrow-alt-circle-right"></i
+        ></a>
+      </section>
+    </main>
+    <footer class="footer container-fuid">
+      <div class="container">
+        <div class="footer-heading">Reach out to Me at</div>
+        <ul class="unordered list-inline">
+          <li>
+            <a href="/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="/">GitHub</a>
+          </li>
+          <li>
+            <a href="/">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
 
 
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="header_part">
+        <img src="" alt="">
+        <h1>Harsha K</h1>
+        <img src="/image/web-developer-design-vector-5884837.jpg" alt="photo">
 
+<div  class="header_ul">
+<ul class="lists">
+    <a href="#">
+        <li>contact</li>
+        <li>Blog</li>
+        <li>About</li>
+        <li>Home</li>
+    </a>
+</ul>
+</div>
+</div>
+ <div class="header_body">
+   <h1> HEY, I'M Harsha</h1>
 
-    .header{
-        background:var(--clr--Light-Grayish-Blue);
-       max-width: 30rem;
-       overflow: hidden;
-      }
+   <p>  A  web developer is proficient in working with both front-end and <br> back-end  coding languages.
+    We building the Websites and <br> Web  Applications that leads to the success of 
+      the overall product.
+   </p> 
  
-       .header_logo {
-           margin-top: 2rem;
-           background-color: var(--clr--Light-Grayish-Blue);
-           margin-bottom: 2rem;
-          margin-left: 1rem;
-          padding: 0rem;
-         }
+<div class="icons">
+    <a href="">
+       <img src="/image/github-dark.svg" alt="Github">
+       <img src="/image/linkedin-dark.svg" alt=Linkedin">
+       <img src="/image/instagram-brands.svg" alt=" instagram-brands">
+       <img src="/image/book-dark.svg" alt="book-dark">
+       <img src="/image/twitter-dark.svg" alt="twitter">
+    </a>
+</div>
+</div>
+<div class="projects">
+    <button>
+    <h2>Projects</h2>
+</button>
+</div>
+<div class="about">
+<a href="#">
+    <h2>ABOUT ME</h2>
+</a>
+ <p> Here you will find more information about me, what I do, and my current <br> skills mostly in terms of programming and technology</p>
+</div>
+<div class="about_discriptin">
+   <h2> Get to know me!</h2>
+   <p>
+I'm a  Web Developer building the Websites and <br> Web Applications that leads to the success <br> of the overall product. Check  out some of my <br> work in the Projects section.</p>
+<p class="p1">
+I also like sharing content related to the stuff <br> that I have learned over the years in Web <br> Development  so it can help other people <br> of the  Dev Community. Feel free to Connect <br> or Follow me on my  where I post useful content <br> related to  Web Development and Programming</p>
+<p class="p2">
 
-     
+I'm open to Job opportunities where I can contribute, <br> learn and grow. If you have a good opportunity that <br> matches my skills and experience then <br> don't hesitate to contact me.
+</p>
 
-          .header_logo img{
-            width: 8rem;
-            height: 3rem;
-          }
-        
-       .header_logo .head_ul-list{
-        list-style: none;
-        display: inline;
-        float: right;
-
-       }
-
-       .header_logo .head_ul-list li{
-        list-style: none;
-        display: grid;
-        place-items: center;
-        float: right;
-        text-decoration: none;
-        color:rgba(12, 4, 4, 0.021); 
-        font-size: 1.3rem;
-        font-weight:600;
-        margin-top: -1.5rem;
-        background-color: var(--clr--Light-Grayish-Blue);
-        padding: 1rem;
-      } 
-
-      .header_logo .head_ul-list li a{
-        text-decoration:none;
-       }
+</div>
 
 
-      .header_imge-2 img{
-        height: auto;
-        width: 100%;
-        margin-top: 6rem;
-      }
+<div class="samples_program">
+   <h3> My Skills</h3>
+ <li>HTML</li> 
+<li>CSS</li> 
+<li>JavaScript</li> 
+<li> c </li>
+<li> c++ </li>
+ <li> React </li>
+<li>GIT </li> 
+<li> Github </li> 
+<li> Responsive Design</li>
+<li> Express Basics </li> 
+<li>SQL </li> 
 
-      .header_head h1{
-        text-align: center;
-        font-size: 2.5rem;
-        line-height: 3rem;
+ </div>
+ <a href="#" class="btn btn-primary-outline"
+          >Download Resume&nbsp; <i class="fas fa-download"></i
+        ></a>
+     <div class="project_shown">
+        <a href="./ #projects" class="btn-btn--bg">Projects</a>
 
-      }
+         
+      <p>   Here you will find some of the personal and clients projects that I created with each project containing its own case study
+    </p>
+     </div>
 
-      .header_head p{
-        text-align: center;
-        font-size: 1.5rem;
-        line-height: 2rem;
-        opacity: .7;
-      }
-
-      .email_label p{
-        border-style: groove;
-        border-color: black;
-        border-width: 0.2rem;
-        text-align: left;
-        padding: 1rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        opacity: .3;
-    
-      }
-
-      .button_1{
-        text-align: center;
-        padding: 1.3rem 9.3rem;
-        margin-left: 3rem;
-        margin-right: 2rem;
-        background-color: var(--clr--Bright-Blue);
-        color: white;
-        font-size: 1.1rem;
-        border-radius: 0.5rem;
-        margin-bottom: 6rem;
-      }
-
-
-      .header_imge-part2 img{
-width: 100%;
-height: auto;
-      }
-
-      .header_head2 h2{
-        text-align: center;
-        font-size: 1.7rem;
-        margin-top: 6rem;
-      }
-
-      .header_head2 p{
-      margin-left: 1rem;
-      margin-top: 2rem;
-      font-size: 1.3rem;
-      margin-bottom: 2rem;
-      opacity: .6;
-      line-height: 1.7rem;
-      }
-
-
-      .head_anchor a{
-        font-size: 1.3rem;
-        margin-top: 2rem;
-      color:var(--clr--Moderate-Cyan);
-        margin-bottom: 2rem;
-        padding: 1rem 9rem;
-
-      }
-       
-      .head_anchor img{
-       padding-top: 1rem;
-        margin-left: -9rem;
-        margin-top: 2rem;
-        height: 5%;
-        width: 5%;
-
-      }
-
-      .head_imge3{
-        margin-top: 4rem;
-        background-color: white;
-        padding: 1rem ;
-          margin-top: 2rem;
-         margin-left: 2rem;
-         margin-right: 2rem;
-      margin-bottom: 2rem;
-        
-      }
-
-      .head_imge3 p{
-        font-size: 1rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        line-height: 1.7rem;
-        opacity: .5rem;
-      }
-
-      .head_image4 img{
-        height: 17%;
-        width: 17%;
-        border-radius: 50%;
-        margin-top: 1rem;
-      }
-
-      .head_imge3 h3{
-        display: grid;
-        margin-left: 5.3rem;
-        margin-top: -4rem;
-        opacity: .9;
-      }
-
-      .head_imge3 h5{
-        display: grid;
-        margin-left: 5rem;
-        margin-top: -1rem;
-        margin-bottom: 3rem;
-        opacity: .5;
-      }
-
-      .end {
-        text-align: center;
-        font-size: 1.9rem;
-        background-color: var(--clr--Desaturated-Blue);
-        padding: 1rem;
-        color: white;
-
-      }
-
-      .end p{
-        text-align: center;
-        font-size: 1.4rem;
-        line-height: 2rem;
-        margin: 2rem;
-
-      } 
-
-    
+     <div class="contact">
+        <h2>
+    CONTACT</h2>
+      <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
       
-                
-        
+      <h3>Name</h3>  
+    
+     <input type=" Enter Your Name "> 
+     <h3>   Email  </h3>
+       <input type="Enter Your Email" >
+      <h3>  Message  </h3>
       
+       <input type=" Enter Your Message " style="margin-bottom: -3rem;">
+      
+       <div class="button">
+      <button class="submit"> SUBMIT  </button>
+    </div>
+    
+     <div class="footer">
+     <h3>   Harsha </h3>
+       <p> SOCIAL</p>
+       <div>
+       <img src="/image/github-dark.svg" alt="github-dark">
+       <img src="/image/instagram-brands.svg" alt="instagram-brands">
+       <img src="/image/linkedin-dark.svg" alt="linkedin-dark">
+       <img src="/image/twitter-dark.svg" alt=" twitter">
+      </div>
+      <p class="para_last">  We building the Websites and Web Applications that leads to the success of the overall product
+    </p>       
+       <p class="para_2"> © Copyright 2022. Made by Harsha </p>
+     </div>
+</div>
 
-        .button_2{
-          text-align: center;
-          padding: 1.5rem 6.2rem;
-          margin-left: 2.6rem;
-          margin-right: 2rem;
-          background-color: var(--clr--Bright-Blue);
-          color: white;
-          font-size: 1.1rem;
-          border-radius: 0.5rem;
-          margin-bottom: 6rem;   
-          
-
-        }
-
-        .footer_head{
-          text-align: center;
-          background-color: var(--clr--Very-Dark-Blue);
-          color: white;
-          margin-top: 1rem;
-          margin-left: -1rem;
-          margin-right: -1rem;
-          margin-bottom: -2rem;
-          opacity: .8;
-
-        }
-
-        .footer_head .logo{
-          margin-top:1rem;
-          display: grid;
-          place-content: center;
-          padding: 3rem;
-          margin-left: -6rem;
-          color: white;
-          
-        }
-
-        .phone_icon{
-          padding: 1rem;
-          margin-left: -17rem;
-          margin-top: -2rem;
-        }
-
-        .phone_icon p{
-          margin-right: -17.5rem;
-          margin-top: -2rem;
-        
-        }
-
-        .email_icon{
-          padding: 1rem;
-          margin-left: -17rem;
-          margin-top: -2rem;
-        }
-
-        .email_icon p{
-          padding: 1rem;
-          margin-left: 18.5rem; 
-          margin-top: -3rem; 
-        }
-
-        .footer_para p{
-text-align: left;
-margin-left: 6rem;
-line-height: 2.5rem;
-margin-top: -2rem;
-        }
-
-        .footer_para1 p{
-          text-align: left;
-          margin-left: 6rem;
-          line-height: 2.5rem;
-          padding-bottom: 2rem;
-        }
-        .footer_icons .img1 img{
-          background-color: white;
-         padding: 1rem; 
-          border-radius: 50%;
-          height: 5%;
-          width: 5%;
-          margin-left: -12rem;
-    display:inline;
-          
-
-          
-        }
-
-
-        .footer_icons .img2 img{
-          background-color: white;
-          padding: 1rem; 
-   display: inline;
-           height: 9%;
-           width: 9%;
-          padding: 1rem; 
-           border-radius: 50%;
-           height: 5%;
-           width: 5%;
-           margin-left: 1rem;
-           margin-top: -8rem;
-           margin-bottom: 2rem;
-        }
-        
-        .footer_icons .img3 img{
-          background-color: white;
-          padding: 1rem; 
-           border-radius: 50%;
-           height: 5%;
-           width: 5%;
-           margin-right:-13rem;
-           margin-top: -9rem;
-           margin-bottom: 4.5rem;
-           display: inline;
-        }
+</body>
+</html>
