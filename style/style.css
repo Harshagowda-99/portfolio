@@ -201,9 +201,10 @@ hr {
 .section img
 {
   width: auto;
-  height: 30rem;
-  margin-left: 65rem;
+  height: 20rem;
+  margin-left: 60rem;
   margin-top: -19rem;
+  overflow: hidden;
 
   border-radius: 10%;
 
