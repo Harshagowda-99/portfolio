@@ -29,16 +29,16 @@
     <div class="brand">Harsha K</div>
     <ul>
       <li>
-        <a href="/" class="active">Home</a>
+        <a href="#" class="active">Home</a>
       </li>
       <li>
-        <a href="./projects.html">Projects</a>
+        <a href="#projects" class="active" >Projects</a>
       </li>
       <li>
-        <a href="./blogs.html">Blogs</a>
+        <a href="#Blogs"   class="active">Blogs</a>
       </li>
       <li>
-        <a href=".Contct.html">Contact</a>
+        <a href="#contact"  class="active">Contact</a>
       </li>
     </ul>
   </div>
@@ -62,13 +62,15 @@
        the overall product.
     </p> 
     <div class="icons">
-      <a href=https://github.com/Harshagowda-99">
+
+      <a href="https://github.com/Harshagowda-99">
          <img src="/image/github-dark.svg" alt="Github"> </a>
+        
          <a href="https://www.linkedin.com/in/harsha-k-0aa4aa218/">
          <img src="/image/linkedin-dark.svg" alt=Linkedin"></a>
-         <img src="/image/instagram-brands.svg" alt=" instagram-brands">
-         <img src="/image/book-dark.svg" alt="book-dark">
-         <img src="/image/twitter-dark.svg" alt="twitter">
+       
+         <a href="https://www.instagram.com/harsha_gowda.99">
+         <img src="/image/instagram-brands.svg" alt="instagram"></a>
       
     </div>
   </div>
@@ -81,11 +83,13 @@
 
   <section class="section dark">
     <h2 class="section-title">About Me</h2>
-    <p> Here you will find more information about me, what I do, and my current <br> skills mostly in terms of programming and technology</p>
+    
+    <p > Here you will find more information about me, what I do, and my current <br> skills mostly in terms of programming and technology</p>
 <br>
 <br>
 
-    <h2> Get to know me!</h2>
+    <button onclick="myFunction()">  Get to know me!</button>
+    <div  id="hidden">
     <p>
  I'm a  Web Developer building the Websites and <br> Web Applications that leads to the success <br> of the overall product. Check  out some of my <br> work in the Projects section.</p>
  <p class="p1">
@@ -94,6 +98,16 @@
  
  I'm open to Job opportunities where I can contribute, <br> learn and grow. If you have a good opportunity that <br> matches my skills and experience then <br> don't hesitate to contact me.
  </p>
+ </div>
+<script>function myFunction(){
+  var x= document.getElementById("hidden");
+  if(x.style.display ==="none") {
+    x.style.display = "block";
+}else{
+x.style.display = "none";
+}
+}</script>
+
     <br />
     <a href="https://resume-222.netlify.app/" class="btn btn-primary-outline"
       >Download Resume&nbsp; <i class="fas fa-download"
@@ -111,25 +125,25 @@
 <p>JavaScript</p> 
 <p> c </p>
 <p> c++ </p>
-<p> React </p>
 <p>GIT </p> 
 <p > Github </p> 
 <p> Responsive Design</p>
-<p> Express Basics </p> 
-<p>SQL </p>
+
 <div class="skill">
   <img src="/image/skill img.png" alt="skill">
 </div>
 
 
-  <!-- project Section -->
+  <!-- blog Section -->
+  <div class="my_blog" id="Blogs">
   <section class="section">
-    <h2 class="section-title" >My Blogs</h2 >
+   <h2 class="section-title" >My Blogs</h2 >
     <p>
       
     </p>
     <br />
-    <a href="#" class="btn btn-primary"
+    
+    <a href="https://blog.feedspot.com/full_stack_developer_blogs/" class="btn btn-primary"
       >Blogs&nbsp; <i class="fas fa-arrow-alt-circle-right"></i
     ></a>
 
@@ -137,56 +151,64 @@
       <img src="/image/blog.jpg" alt="blog">
     </div>
   </section>
-
-
-  
-  <!-- Blogs Section -->
-  <section class="section dark">
-    <h2 class="section-title">My Projects</h2>
-<p style="margin-left: -1rem;">Here you will find  web base , ui base projects </p>
-    <br />
-    <a href="#" class="btn btn-primary-outline"
-      >Projects&nbsp; <i class="fas fa-arrow-alt-circle-right"></i
-    ></a>
-  </section>
-  
-  <div class="contact">
-    <h2>
-CONTACT</h2>
-  <p style="font-size: 1.rem;">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-  
-  <h3>Name</h3>  
-
- <input type=" Enter Your Name " style="padding: 0.6rem;"> 
- <h3>   Email  </h3>
-   <input type="Enter Your Email"  style="padding:0rem 1.6rem 2rem ;">
-  <h3>  Message  </h3>
-  
-   <input type=" Enter Your Message " style="margin-bottom: -3rem; padding: 1.5rem;padding-left: 4rem; padding-right: 4rem;">
-  
-   <div class="button">
-  <button class="submit" style="margin-top: 2rem ;"> SUBMIT  </button>
 </div>
 
+  
+  <!-- project Section -->
+  <section class="section dark">
+    <h2 class="section-title" id="projects">My Projects</h2>
+<p style="margin-left: -1rem;">Here you will find  Web Based , UI Based projects </p>
+    <br />
+    <a href="https://project-1-1-1.netlify.app/" class="btn btn-primary-outline"
+      >Projects&nbsp; <i class="fas fa-arrow-alt-circle-right"></i
+    ></a>
+
+  </section>
+  <form action="/action_page.php">
+  <div class="contact" id="share">
+
+    <h2 class="contact">
+Contact Me</h2>
+  <p style="font-size: 1.4rem; margin-top: -3rem;">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+  <form action="/action_page.php">
+  <label for="fname"> First Name:</label>  
+
+ <input placeholder="Your  Name" type=" text " id="fname" name="firstname" style="padding: 0.6rem; margin-bottom: 2rem;margin-top: 0.5rem;margin-top: 1rem;"required>
+ <label for="lname"> Last name</label>
+ <input type="text" id="lname" name="lastname" placeholder="your last name" style="padding:0.6rem ;"required>
+  
+ <label for="email">   Email:  </label>
+   <input placeholder="Enter Your Email" type="text" id="email" name="email" style="padding:0.6rem ; margin-bottom: 1rem;"required> <br>
+  <label for="message">  Message:  </label>
+  
+   <input placeholder="Write something" type=" text" id="message" style="margin-bottom: -3rem; padding: 1.5rem;padding-left: 4rem; padding-right: 4rem;"required>
+  
+   <div class="button">
+  <button type="button" onclick="myfunction()" style="margin-top: 2rem ;"> SUBMIT  </button>
+</form>
+</div>
+</form>
 </main>
 <footer class="footer container-fuid">
    <div class="footer">
       <div>
         <a href="https://github.com/Harshagowda-99">
       <img src="/image/github-dark.svg" alt="github-dark" ></a>
-      <a href="">
-      <img src="/image/instagram-brands.svg" alt="instagram-brands"></a>
+      <a href="//www.instagram.com/harsha_gowda.99">
+      <img src="/image/instagram-brands.svg" alt="instagram"></a>
+     
       <a href="https://www.linkedin.com/in/harsha-k-0aa4aa218/">
       <img src="/image/linkedin-dark.svg" alt="linkedin-dark"></a>
-      <img src="/image/twitter-dark.svg" alt=" twitter">
      </div>
+     <h5>harshajk47@gmail.com</h5>
+     <h6 style="margin-bottom: 1rem;">9008296923</h6>
      
    </p>       
       <p class="para_2"> © Copyright 2022. Made by Harsha </p>
     </div>  
   
 </footer>
-
+<script src="/script.js"></script>
 
 </body>
 </html>

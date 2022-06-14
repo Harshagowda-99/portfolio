@@ -326,6 +326,7 @@ margin-bottom: 4rem;
   height: auto;
   width: 5rem;
   padding: 1rem;
+  
 }
 
 .icons img{
@@ -335,10 +336,6 @@ margin-bottom: 4rem;
   padding: 1rem;
 
 }
-
-
-
-
 
 
 .description p {
@@ -351,3 +348,18 @@ margin-bottom: 4rem;
   margin-bottom: 1rem;
   color: var(--clr-primary);
 }
+
+ 
+  
+@media only screen and ( min-width: 768px){
+
+.container{
+  
+
+
+}
+  } 
+
+  @media only screen and (min-width:4000px){
+
+  }
